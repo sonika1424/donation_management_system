@@ -1,0 +1,304 @@
+body{
+  background-color: rgba(252, 251, 250, 0.521);
+}
+.header{
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding: 10px;
+  padding-bottom: 0px;
+  border-radius: 5px;
+  font-family: Papyrus;
+  position: relative;
+}
+
+#navBar{
+  margin-top: 10px;
+  padding: 5px;
+  background-color:rgb(137, 151, 141);
+  /* background-color: #D4A373; */
+  color: white;
+  /* border: 3px solid white; */
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+#navBar div{
+  text-decoration: none;
+  color : black;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.selected{
+  background-color: rgb(219, 211, 176);
+  border-radius: 30px;
+}
+
+.total{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.add{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  left: 55%;
+}
+
+.itemInp{
+  text-align: center;
+  justify-content: center ;
+  position: absolute;
+  background-color: rgba(118, 160, 180, 0.671);
+  height: 85vh;
+  width: 80vw;
+  border: 3px solid white;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 30px;
+  padding-bottom: 20px;
+}
+
+.container{
+  margin-bottom: 10px;
+  display: hide;
+}
+
+.content{
+  background-color: rgba();
+  height: fit-content;
+  width: 90%;
+  margin-top: 5px;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* display: none; */
+}
+
+.aboutPage{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  display: none;
+}
+.iframe{
+  width: 100%;
+  height: 70vh;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.ngoPage{
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.ngoList{
+  position: absolute;
+  left :500px;
+  background-color: black;
+  color: white;
+  width: 60vh;
+  border:3px solid white;
+  border-radius: 30px;
+  font-size: 25px;
+}
+
+.ngoItem{
+  margin-bottom: 0px;
+}
+
+.historyPage{
+  display: none; 
+  /* background-color: black; */
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  display: flex;
+}
+
+#templateHistory{
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+.donationLog{
+  margin-top: 10px;
+  background-color:black;
+  border-radius: 30px;
+  border: 3px solid white;
+}
+.historyInfo{
+  padding:10px;
+  margin-bottom: 0px;
+}
+
+.addItem{
+  width: 8%;
+  background-color: rgb(247, 248, 179);
+  height: fit-content;
+  border : 3px solid white;
+  border-radius: 5px;
+  position: fixed;
+  right: 0.5%;
+  margin-top: 5px;
+}
+
+
+.item{
+  height: 61vh;
+  width: 24%;
+  /* width: fit-content; */
+  background-color: rgba(153, 190, 49, 0.521);
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #000;
+  overflow: hidden;
+}
+.rem-link{
+  text-decoration: none;
+  color: white;
+}
+
+.rem-link:hover{
+  color: green;
+}
+
+.img{
+  /* height:fit-content; */
+  /* width: fit-content ; */
+  height: 42%;
+  width: 260px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  /* background-color: blue; */
+}
+
+.info{
+  height: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  /* background-color: rgba(198, 20, 204, 0.856); */
+  font-size: 17px;
+}
+
+
+.add{
+  position: fixed;
+  top: 10%;
+  display: none;
+  left: 10%;
+}
+
+
+#newItem{
+  background: none;
+  background-color: rgb(113, 187, 189);
+  border-radius: 10px;
+}
+
+#loginBtn{
+  position: relative;
+  left: 600px;
+  bottom: 70px;
+  background-color: rgba(255, 255, 255, 0.308);
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 9px;
+  box-shadow: 3px 3px 3px white;
+}
+
+#no-style{
+  text-decoration: none;
+  color: white;
+}
+
+#profile{
+  left: 600px;
+  bottom: 70px;
+  height: 10px;
+}
+
+#close-upload{
+  margin-left: 95%;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+#profile-img{
+  position: relative;
+  height : 60px;
+  width : 60px;
+  left: 600px;
+  bottom: 70px;
+}
+
+.profileInfo{
+  background-color: white;
+  color: black;
+}
+
+
+#logoutAndProfileDiv{
+  display: none;
+}
+
+#logoutBtnProfile{
+  background-color: black;
+  color: white;
+  display:flex;
+  height: fit-content;
+  width: fit-content;
+  font-size: 20px;
+}
+#loginPage{
+  text-decoration: none;
+  color: white;
+}
+
+
+#loginBtn:active{
+  background-color: rgb(11, 69, 83);
+  box-shadow: 0px 0px 0px ;
+}
+
+#upload-item{
+  background: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+
+#logoutBtn{
+  position: relative;
+  left: 600px;
+  bottom: 70px;
+  background-color: rgba(255, 255, 255, 0.308);
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 9px;
+  box-shadow: 3px 3px 3px white;
+}
